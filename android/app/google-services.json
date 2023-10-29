@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "260791201550",
+    "project_id": "watheq-commerce",
+    "storage_bucket": "watheq-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260791201550:android:7a71d15bf96af67f85b15f",
+        "android_client_info": {
+          "package_name": "com.watheq.ecommerce.app.watheq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNmpmQ3kpwFCGpcTSEjgOJH37KMx2pxLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
