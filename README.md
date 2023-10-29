@@ -1,16 +1,42 @@
 # watheq
 
-A new Flutter project.
+This is an Ecommerce project sample with the following features:
 
-## Getting Started
+. API integration (api link: https://dummyjson.com/docs/products)
+. Firebase notifications
+. Firebase remote config
+. modern ui design
+. Local Secured caching
+. Cart Feature
+. Product Details
+. Categorized products
 
-This project is a starting point for a Flutter application.
+TODO Features & Edits:
+- by pass the cache mechanism of remote config "using firebase's real time remote config"
+- test on ios for possible issues
+- more fancy animations
+- pagination
+- add a profishional shimmer loading indicator instead of the current one
+- scroll in home screen
+- make the notification icon reactive
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Techinical NOTEs!
+--------
+> The main target and focus in this product was to prove my skills in:
+> Software Engineering
+> code quality
+> clean code
+> solid principles 
+> oop (object oriented programming)
+> clean architicture
+> MVVM
+> state management (Bloc)
+> API Integrations
+> Firebase notifications
+> Firebase remote config
+> Secure Local Storage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+NOTE!: The app may have a leak in ui as I wasn't working based on an ui/ux design. Just depending on 
+my eye being familiar with many previous projects.
+but even that, the implemented design is working good and responsive on several screen sizes following Responsive design principles.

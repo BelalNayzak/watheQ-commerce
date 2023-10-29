@@ -37,11 +37,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<HomeBloc, HomeState>(
-      listener: (_, state) {
-        if (state is NotificatinsFabButtonClickedState) {
-          context.pushNamed(NotificationsScreen.id);
-        }
-      },
+      listener: (_, state) {},
       builder: (_, state) {
         if (state is GetAllProductsLoadingState || state is HomeInitial) {
           return const LoadingWidget();
@@ -60,7 +56,7 @@ class HomePage extends StatelessWidget {
                       heroTag: 'fab_notifications',
                       mini: true,
                       onPressed: () {
-                        homeBloc.add(NotificatinsFabButtonClickEvent());
+                        context.pushNamed(NotificationsScreen.id);
                       },
                       child: const Badge(
                         backgroundColor: colorRed,
